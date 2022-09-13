@@ -1,0 +1,43 @@
+.about-wrapper{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.a-left{
+    flex: 1;
+    position: relative;
+}
+
+.a-left>img{
+    transform: scale(0.9);
+    width: 650px;
+    height: 550px;
+}
+
+.a-right{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.a-right>:nth-child(1){
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.a-right>:nth-child(2){
+    font-size: 2.5rem;
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.a-right>:nth-child(3){
+    font-size: 0.90rem;
+    color: var(--gray);
+    font-weight: 400;
+    text-align: justify;
+    line-height: 27px;
+}

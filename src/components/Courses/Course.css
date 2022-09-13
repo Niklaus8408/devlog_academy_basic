@@ -1,0 +1,66 @@
+.course-container{
+    height: 70vh;
+    margin-top: 6rem;
+}
+
+.course-title{
+    text-align: center;
+}
+
+.course-title>:nth-child(1){
+    font-size: 1.3rem;
+    color: var(--black);
+    display: block;
+}
+
+.course-title>:nth-child(2){
+    font-size: 2rem;
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.course-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.c-card{
+    width: 9rem;
+    height: 10rem;
+    text-align: center;
+    padding: 0.6rem 0.4rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.c-card-header>img{
+    max-width: 100%;
+    height: 5rem;
+}
+
+.c-card-body>:nth-child(1){
+    color: var(--orange);
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    padding: 0.5rem 0 0 0;
+}
+
+.c-card-body>:nth-child(2){
+    color:var(--gary);
+    font-size: 1rem;
+}
+
+.c-card:hover{
+    height: 11rem;
+}
+
+.c-card:hover .btn{
+    display: block;
+}
+
+.c-card-footer .btn{
+    font-size: 0.90rem;
+}

@@ -1,0 +1,95 @@
+.contact-form{
+    padding: 0 3rem;
+    display: flex;
+    height: 70vh;
+    margin-top: 4rem;
+}
+
+.w-left{
+    flex: 1;
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.awesome>:nth-child(1){
+    font-size: 1.5rem;
+    color: var(--black);
+    font-weight: normal;
+    display: block;
+}
+
+.awesome>:nth-child(2){
+    font-size: 3rem;
+    color: var(--orange);
+    font-weight: bold; 
+    display: block;
+}
+
+.awesome>:nth-child(3){
+    font-size: 1.1rem;
+    color: var(--gray);
+}
+
+.w-social{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.w-social>*{
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    color: var(--gray);
+}
+
+.w-social>*:hover{
+    font-size: 2rem;
+    color: var(--orange);
+    transform: translateY(-10px);
+}
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.c-right>form>*{
+    margin-bottom: 2rem;
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.c-right textarea{
+    height: 4rem !important;
+}
+
+.c-blur{
+    top: 1rem;
+    left: 8rem;
+}
+
+::placeholder, textarea::placeholder{
+    padding: 0.4rem;
+    font-size: 0.9rem;
+}

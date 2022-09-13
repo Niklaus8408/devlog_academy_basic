@@ -1,0 +1,48 @@
+.review{
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.review-title{
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.review-title>:nth-child(1){
+    font-size: 1.3rem;
+    color: var(--black);
+    display: block;
+}
+
+.review-title>:nth-child(2){
+    font-size: 2rem;
+    color: var(--orange);
+}
+
+.review-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.review-wrapper>.r-card{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.r-card>:nth-child(1){
+    color: var(--orange);
+    font-size: 1.1rem;
+    font-weight: 400;
+    display: block;
+}
+
+.r-card>:nth-child(2){
+    color: var(--gray);
+    font-size: 0.9rem;
+    text-align: justify;
+}
